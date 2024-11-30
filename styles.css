@@ -1,0 +1,199 @@
+/* أسلوب الصفحة العامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* التنقل */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* قسم الافتتاحية */
+.landing {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+.landing img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.landing h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.landing p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* الأقسام الأخرى */
+.about, .achievements {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.about h2, .achievements h2 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+}
+.about p, .achievements ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.achievements ul {
+    padding: 0;
+    list-style-type: none;
+}
+.achievements ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+.achievements ul li:before {
+    content: "✔";
+    color: #4CAF50;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* التذييل */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+/* قسم الدورات */
+.courses {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.courses h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.course-card {
+    background-color: #f9f9f9;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+.course-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.course-card p {
+    font-size: 1rem;
+    color: #555;
+}
+nav ul li a.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+/* قسم التواصل */
+.contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #45a049;
+}
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+.contact-info h3 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+}
